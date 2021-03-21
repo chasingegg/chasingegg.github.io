@@ -1,0 +1,75 @@
+baseURL = "https://chasingegg.github.io"
+title = "Chao.G" # 浏览器的标题
+languageCode = "zh-cn" # 语言
+hasCJKLanguage = true # 开启可以让「字数统计」统计汉字
+theme = "mogege" # 主题 (需要自己下载)
+
+paginate = 12 # 每页的文章数
+enableEmoji = true # 支持 Emoji
+enableRobotsTXT = true # 支持 robots.txt
+
+preserveTaxonomyNames = true
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+  posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+
+[params]
+    since = 2021
+    author = "Chao.G"                          # Author's name
+    avatar = "/avatar.jpeg"           # Author's avatar
+    subtitle = "Code for a living"                  # Subtitle
+    home_mode = "" # post or other
+    enableGitalk = false # gitalk 评论系统
+    enableUtteranc = true
+    Github = "chasingegg"
+    wechat = "/100.jpeg"
+    google_verification = ""
+
+    description = "高超的个人博客" # (Meta) 描述
+    keywords = "" # site keywords
+
+    math = true
+    beian = ""
+    baiduAnalytics = ""
+    googleAnalytics = "UA-104502658-2" # Google 统计 id
+
+    license= '本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
+
+[params.Social]
+    Wechat = "/wechat.jpeg"
+    Github = "chasingegg"
+    LinkedIn = "超-高-45432b152"
+    Zhihu = "chao-g-77"
+    Email = "dimongao96@gmail.com"
+
+[params.utteranc] # Homepage: https://utteranc.es
+    repo = "chasingegg/chasingegg.github.io" # The repo to store comments
+    issueTerm = "title" # the mapping between blog posts and GitHub issues. 
+    theme = "preferred-color-scheme" # Theme
+    crossorigin = "anonymous" # default: anonymous
