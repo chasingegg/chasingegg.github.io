@@ -12,6 +12,6 @@ I'm going to be a backend engineer in ByteDance, Shanghai. Before that, I obtain
 Contact me:
 
 - Email: [dimongao96@gmail.com](mailto:dimongao96@gmail.com)
-- Github: [@chasingegg](https:/github.com/chasingegg)
+- Github: [@chasingegg](https://github.com/chasingegg)
 - Zhihu: [@Chao.G](https://zhihu.com/people/chao-g-77)
 - Linkedin: [@Chao Gao](https://linkedin.com/in/超-高-45432b152)
