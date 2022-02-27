@@ -21,7 +21,7 @@ categories: ["Papers"]
 
 <table><tr>
 <td><img src=/assets/motivation-latency.png border=0></td>
-<td><img src=/assets/motivation-minimum_amount.png border=0></td>
+<td><img src=/assets/motivation-minimum-amount.png border=0></td>
 </tr></table>
 
 这说明为每个测试向量设置一个Learned的参数很有必要，但是作者更进一步，汲取了数据库优化器里Adaptive Query Processing的思想， 可以把查询的中间结果纳入考虑，把运行中的metrics作为指导后续参数设置的重要依据。作者验证了一下，如上文所说80%向量只需要访问少于547个数据点，所有测试向量均以访问547个数据点作为基础，然后来看测试向量和当前执行过程中的“最近邻”的距离dist，和接下来还需要访问的数据点个数n之间的关系，可以发现一个明显的规律就是，dist越小，n也就越小，所以作者认为可以**首先对所有测试向量设置一个统一的可以接受的较小的参数，在运行完之后，通过中间结果指标再来为每个查询设置合适的参数继续执行或者中止**。
