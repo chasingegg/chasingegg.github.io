@@ -2,7 +2,6 @@
 author: "Chao.G"
 title: "An Empirical Evaluation of Columnar Storage Formats"
 date: "2025-04-12"
-markup: "mmark"
 draft: false
 tags: ["database"]
 categories: ["Papers"]

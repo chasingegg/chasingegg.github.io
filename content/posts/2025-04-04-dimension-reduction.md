@@ -2,7 +2,6 @@
 author: "Chao.G"
 title: "Dimensionality-Reduction Techniques for Approximate Nearest Neighbor Search"
 date: "2025-04-04"
-markup: "mmark"
 draft: false
 tags: ["ann"]
 categories: ["Papers"]

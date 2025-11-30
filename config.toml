@@ -4,19 +4,26 @@ languageCode = "zh-cn" # 语言
 hasCJKLanguage = true # 开启可以让「字数统计」统计汉字
 theme = "mogege" # 主题 (需要自己下载)
 
-paginate = 12 # 每页的文章数
 enableEmoji = true # 支持 Emoji
 enableRobotsTXT = true # 支持 robots.txt
 
 preserveTaxonomyNames = true
 
-[blackfriday]
-  hrefTargetBlank = true
-  nofollowLinks = true
-  noreferrerLinks = true
+[pagination]
+  pagerSize = 12 # 每页的文章数
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in markdown
+
+[markup.goldmark.extensions.passthrough]
+  enable = true
+
+[markup.goldmark.extensions.passthrough.delimiters]
+  block = [['$$', '$$']]
+  inline = [['$', '$']]
 
 [Permalinks]
-  posts = "/:year/:filename/"
+  posts = "/:year/:contentbasename/"
 
 [menu]
   [[menu.main]]

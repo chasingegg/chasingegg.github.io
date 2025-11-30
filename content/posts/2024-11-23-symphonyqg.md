@@ -2,7 +2,6 @@
 author: "Chao.G"
 title: "SymphonyQG: Symphonious Integration of Quantization and Graph"
 date: "2024-11-23"
-markup: "mmark"
 draft: false
 tags: ["ann"]
 categories: ["Papers"]

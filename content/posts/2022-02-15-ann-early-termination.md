@@ -2,7 +2,6 @@
 author: "Chao.G"
 title: "Improving anns through learned adaptive early termination"
 date: "2022-02-15"
-markup: "mmark"
 draft: false
 tags: ["ANN"]
 categories: ["Papers"]

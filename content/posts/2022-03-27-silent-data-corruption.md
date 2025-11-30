@@ -2,7 +2,6 @@
 author: "Chao.G"
 title: "静默数据损坏"
 date: "2022-03-27"
-markup: "mmark"
 draft: false
 tags: ["data center"]
 categories: ["Share"]
